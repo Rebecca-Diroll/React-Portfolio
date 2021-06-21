@@ -1,38 +1,113 @@
-.App {
+body {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 35px;
   text-align: center;
+  background-color: rgb(24, 134, 45);
+  color: whitesmoke;
+  margin: 5%;
+  padding: 5px 0;
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainTitle {
+  font-size: 40px;
+} 
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(174, 217, 167);
+  margin: 5%;
+  padding: 5px 0;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.headerText {
+  font-size: 18px;
+  text-align: center;
+  background-color: rgb(223, 238, 218);
+  margin: 0 5%;
+  padding: 2px;
+}
+
+.headerNav {
+  background-color: rgb(109, 185, 102);
+}
+
+/* 400px */
+@media only screen and (min-width: 400px) {
+  body, .headerText {
+    font-size: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 400px) {
+  h1 {
+    font-size: 35px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (min-width: 400px) {
+  .mainTitle {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+/* 600px */
+@media only screen and (min-width: 600px) {
+  .headerText {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mainTitle {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h2 {
+    font-size: 35px;
+  }
+}
+
+/* 900px */
+@media only screen and (min-width: 900px) {
+  .headerText {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .mainTitle {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h2 {
+    font-size: 50px;
   }
 }

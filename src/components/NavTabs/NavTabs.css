@@ -1,0 +1,27 @@
+.navBar {
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+        "hb1 hb2";
+    /* grid-gap: 1%; */
+    padding: 2%;
+    margin: 0 20%;
+}
+
+@media only screen and (min-width: 400px) {
+    .headerButton {
+      font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .headerButton {
+      font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .headerButton {
+      font-size: 30px;
+    }
+}

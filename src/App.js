@@ -8,22 +8,26 @@ import Work from "./pages/Work/Work.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <h1 className="mainTitle">Rebecca D. Diroll</h1>
+
+        <div className="headerText">32019 Beech St., Hanoverton, OH 44423</div>
+        <div className="headerText">Email: rebecca.diroll@gmail.com</div>
+        <div className="headerText">Cell: 330-341-0602</div>
+
+        <NavTabs></NavTabs>
+        <hr />
+
+        <Route exact path="/" component={Home} />
+        <Route exact path="/work" component={Work} />
+
+        <Footer></Footer>
+        <br />
+        {/* <br /> */}
+      </Router>
+
+    </>
   );
 }
 

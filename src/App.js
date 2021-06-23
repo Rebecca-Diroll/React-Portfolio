@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import NavTabs from "./components/NavTabs/NavTabs.js";
 import Footer from "./components/Footer/Footer.js"
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home/Home.js";
 import Work from "./pages/Work/Work.js";
 

@@ -16,7 +16,7 @@ This is an online, web-based portfolio created using React. It showcases project
 GitHub Repository: https://github.com/Rebecca-Diroll/React-Portfolio
 
 ## Deployment
-Deployment: 
+GitHub Pages Deployment: https://rebecca-diroll.github.io/React-Portfolio
 
 ## Images
 Portfolio 1
